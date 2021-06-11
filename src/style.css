@@ -1,0 +1,90 @@
+input[type=text] {
+    height: 50px;
+    width: 305px;
+    font: normal 20pt arial;
+    margin-bottom: 10px;
+}
+
+input[type=text]:focus {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+button{
+    height: 50px;
+    width: 75px;
+    font: normal 15pt arial;
+    background-color: #f24537;
+    border-radius: 0px;
+    border: 1px solid #f24537;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: #c62d1f
+}
+
+button:active{
+    position: relative;
+    top: 1px;
+}
+
+.all-buttons{
+    padding-left:6.5px;
+    padding-right:6.5px;
+}
+
+
+
+.box {
+    width: 440px;
+    height: 400px;
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #969696;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+body {
+    margin: 0px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font: normal 20pt Arial;
+    color: white;
+}
+
+.content {
+    padding-bottom: 50px;
+}
+
+.footer {
+    font: normal 10pt arial;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
